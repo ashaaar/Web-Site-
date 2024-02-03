@@ -1,0 +1,64 @@
+<html>
+    <head> 
+        <title> Online Shopping</title>
+    </head>
+    <body>
+        <style>
+            h1{
+                color: white;
+                background-color:rgb(4, 44, 58);
+            }
+            td{
+                     background-color: rgb(40, 107, 131);
+            }
+            .items{
+                color: white; 
+                background-color:rgb(3, 64, 85) ;
+            }
+            body{
+                background-color:  rgb(36, 121, 177) ;
+            }
+            form{
+                background-color: rgb(20, 68, 100) ;
+                color: white;
+            }
+        </style>
+        <center><h1 id="top"> ORDER NOW</h1></center>
+        <p>
+            <center>
+            <table border="1px" width="80%" height="8%">
+                <ul>
+                <tr>
+                <td><li><a href="index.html">Home</a></li></td>
+                <td><li><a href="Grocery.html">Grocery</a></li></td>
+                <td><li><a href="FastFood.html">FastFood</a></li></td>
+                <td><li><a href="order.html">Order Now</a></li></td>
+                </tr>
+                </ul>
+                </table></center>
+        </p> 
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+            <p> NAME <input  placeholder="Enter Name" type="text" required></p>
+            <p> EMAIL <input  placeholder="Enter Email" type="email"></p>
+            <p> PHONE NUMBER <input  placeholder="Enter Your Number" type="text"required></p>
+            <p>ADDRESS <textarea name="Address" id="ADDRESS" cols="30" rows="10"required> </textarea></p>
+            <p> PROVINCE  <select>
+                <option disabled selected> Choose Province</option>
+                <option>karachi</option>
+                <option>Lahore</option>
+                <option>Punjab</option>
+                <option>Islamabad</option>
+            </select></p>
+        </fieldset>
+        <fieldset>
+            <legend> ORDER NAME</legend>
+            <p> <textarea name="ORDER" id="order name" cols="30" rows="10"required> </textarea></p>
+        </fieldset><br>
+        <button type="submit">ORDER CONFROM</button><Button type="reset">RESET</Button>
+
+        </form> 
+
+    </body>
+</html>
